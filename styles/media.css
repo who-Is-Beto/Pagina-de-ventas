@@ -1,0 +1,63 @@
+@media (max-width:1024px){
+  
+  .menciones{
+    display: grid;
+    margin: 0 30%;
+    width: 45%;
+    
+  }
+  
+  .menionados{
+
+    width: auto;
+    margin-top: 15px;
+  }
+  
+  .menicon-container {
+    width: inherit;
+    height: 105px;
+    display: -webkit-box;
+  }
+
+  .menicon-container img{
+    border-radius: 15px 0 0 15px ;
+  }
+
+  .pbox{
+    width: 300px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width:720px){
+  .recomendacion{
+    display: grid;
+  }
+  .product{
+    display: grid;
+  }
+}
+
+@media(max-width:550px){
+  
+  nav{
+    padding: 15px 32px;
+  }
+  .menicon-container {
+    width: inherit;
+    height: 105px;
+    display: contents;
+  }
+
+  .menionados{
+    width: 239px;
+  }
+
+  .pbox{
+    width: 215px;
+  }
+
+  .menicon-container img{
+    border-radius: 15px 15px 0 0 ;
+  }
+}
