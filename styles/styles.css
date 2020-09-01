@@ -43,9 +43,11 @@ nav li a{
 nav li a:hover{
   color: var(--white-color);
 }
-p{
+p, label{
   margin: 0;
+  font-size: 12px;
 }
+
 /* ------------------------ Main section */
 
 .main-section{
@@ -99,6 +101,7 @@ p{
   padding: 10px;
   border-radius: 5px;
   font-size: 17px;
+  margin-top: 10px;
     
 }
 
@@ -176,6 +179,55 @@ p{
   
 }
 
+/*------------------------- Venta*/
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: 0 0 2px 1px #e6e5e9;
+  padding: 10px;
+}
+
+.modulo_pago_img{
+  margin: 0;
+  text-align: center;
+}
+
+.modulo_pago input {
+  margin-top: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid #e6e5e9;
+}
+/*------------------------- ERROR*/
+
+.container{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ErrorBoton{
+  width: 300px;
+  justify-self: center;
+  color: var(--white-color);
+
+}
+
+.button-error{
+  text-align: center;
+}
+
+.imagenError{
+  height: 200px;
+  margin: 0;
+  width: inherit;
+  align-items: center;
+  justify-self: center;
+}
+
+
+
+/*------------------------- footer*/
 footer{
   display: flex;
   background-color: #4b4b4b;
